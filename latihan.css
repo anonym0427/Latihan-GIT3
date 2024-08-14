@@ -1,0 +1,37 @@
+.section {
+    padding: 60px 20px;
+    min-height: 400px; /* Ensures each section has a minimum height */
+}
+
+.services {
+    background-color: #FCE1A9;
+}
+
+.about {
+    background-color: #ECDCF2;
+}
+
+.contact {
+    background-color: #D1E7D6;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.service-box, .service-detail, .row {
+    text-align: center;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer {
+    background-color: #F6E1B3;
+    text-align: center;
+    padding: 20px;
+}
